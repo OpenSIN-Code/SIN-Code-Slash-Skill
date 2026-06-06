@@ -1,3 +1,16 @@
+> ## ⚠️ DEPRECATED — This skill has been merged into [sin-code-bundle](https://github.com/OpenSIN-Code/SIN-Code-Bundle)
+>
+> As of v0.9.3 (2026-06-06), this standalone skill is now a subcommand of the `sin-code-bundle` CLI:
+>
+> | Old | New |
+> |-----|-----|
+> | standalone skill | `sin slash` |
+>
+> **Migrate now:** `pip install --upgrade sin-code-bundle`
+>
+> This repo is archived; no further updates will be made.
+> See [issue #29](https://github.com/OpenSIN-Code/SIN-Code-Bundle/issues/29) for the consolidation rationale.
+
 # SIN-Code Slash Skill
 
 OpenAI-kompatibler MCP-Server für Slash-Command-Dispatch mit eingebauten Befehlen und benutzerdefiniertem Registry.
