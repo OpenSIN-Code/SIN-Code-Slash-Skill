@@ -1,5 +1,5 @@
 # Purpose: Tests for the command registry.
-# Docs: tests/test_registry.doc.md
+# Docs: test_registry.doc.md
 """Test the SQLite-backed command registry.
 
 Tests cover CRUD operations, persistence, and edge cases.

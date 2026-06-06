@@ -1,5 +1,5 @@
 # Purpose: Tests for built-in commands.
-# Docs: tests/test_commands.doc.md
+# Docs: test_commands.doc.md
 """Test built-in command definitions.
 
 Tests cover command lookup, help text, and built-in listing.

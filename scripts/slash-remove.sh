@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Purpose: Unregister a custom slash command.
-# Docs: scripts/slash-remove.sh.doc.md
+# Docs: slash-remove.sh.doc.md
 set -euo pipefail
 
 # Usage: slash-remove.sh <name>

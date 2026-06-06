@@ -1,5 +1,5 @@
 # Purpose: Tests for the command dispatcher.
-# Docs: tests/test_dispatcher.doc.md
+# Docs: test_dispatcher.doc.md
 """Test the command dispatcher.
 
 Tests cover dispatch, history, and command resolution.

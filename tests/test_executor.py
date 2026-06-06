@@ -1,5 +1,5 @@
 # Purpose: Tests for the command executor.
-# Docs: tests/test_executor.doc.md
+# Docs: test_executor.doc.md
 """Test the command executor.
 
 Tests cover built-in execution, custom execution, shell commands, and validation.

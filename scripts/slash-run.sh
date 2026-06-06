@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Purpose: Run a slash command via CLI.
-# Docs: scripts/slash-run.sh.doc.md
+# Docs: slash-run.sh.doc.md
 set -euo pipefail
 
 # Usage: slash-run.sh <command> [options]

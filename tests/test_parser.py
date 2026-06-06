@@ -1,5 +1,5 @@
 # Purpose: Tests for the slash command parser.
-# Docs: tests/test_parser.doc.md
+# Docs: test_parser.doc.md
 """Test the slash command parser.
 
 Tests cover parsing, validation, quoted strings, flags, and edge cases.

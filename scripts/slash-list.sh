@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Purpose: List available slash commands.
-# Docs: scripts/slash-list.sh.doc.md
+# Docs: slash-list.sh.doc.md
 set -euo pipefail
 
 # Usage: slash-list.sh [--built-in|--custom]

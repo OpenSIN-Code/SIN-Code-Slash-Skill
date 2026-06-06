@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Purpose: Register a custom slash command.
-# Docs: scripts/slash-register.sh.doc.md
+# Docs: slash-register.sh.doc.md
 set -euo pipefail
 
 # Usage: slash-register.sh <name> <description> <action> [--type=<type>]

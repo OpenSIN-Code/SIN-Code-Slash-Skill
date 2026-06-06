@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Purpose: Show slash command history.
-# Docs: scripts/slash-history.sh.doc.md
+# Docs: slash-history.sh.doc.md
 set -euo pipefail
 
 # Usage: slash-history.sh [--limit=<n>]

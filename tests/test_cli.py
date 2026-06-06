@@ -1,5 +1,5 @@
 # Purpose: Tests for the CLI interface.
-# Docs: tests/test_cli.doc.md
+# Docs: test_cli.doc.md
 """Test the CLI interface.
 
 Tests cover CLI commands using click.testing.CliRunner.

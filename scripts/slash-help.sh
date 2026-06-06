@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Purpose: Show help for a slash command.
-# Docs: scripts/slash-help.sh.doc.md
+# Docs: slash-help.sh.doc.md
 set -euo pipefail
 
 # Usage: slash-help.sh <command>
