@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "sin-slash"
-version = "0.1.0"
+version = "0.2.0"
 description = "SIN-Code Slash Skill - MCP server for slash command dispatch"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -43,6 +43,16 @@ dev = [
 
 [project.scripts]
 sin-slash = "sin_slash.cli:main"
+# v0.2.0 — Standalone CLI shims for the 6 MCP tools. Lets shell users
+# and sub-agents dispatch slash commands without spinning up the MCP
+# server. Each shim is a thin argparse wrapper around the corresponding
+# function in sin_slash.mcp_server.
+slash-dispatch = "sin_slash.cli_shims.slash_dispatch:main"
+slash-list = "sin_slash.cli_shims.slash_list:main"
+slash-register = "sin_slash.cli_shims.slash_register:main"
+slash-unregister = "sin_slash.cli_shims.slash_unregister:main"
+slash-help = "sin_slash.cli_shims.slash_help:main"
+slash-history = "sin_slash.cli_shims.slash_history:main"
 
 [project.urls]
 Homepage = "https://github.com/OpenSIN-Code/SIN-Code-Slash-Skill"
